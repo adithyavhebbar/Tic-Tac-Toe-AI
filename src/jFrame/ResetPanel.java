@@ -4,7 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ResetPanel extends JPanel {
-    public JButton resetButton;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public JButton resetButton;
     public ResetPanel() {
         this.resetButton.setName("reset");
         this.resetButton.setText("Reset");
